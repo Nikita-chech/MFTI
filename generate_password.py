@@ -7,4 +7,3 @@ def generate_password():
         g = randint(33, 126)
         l = l + chr(g)
     return l
-print(f())
