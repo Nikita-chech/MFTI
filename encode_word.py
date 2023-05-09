@@ -9,9 +9,8 @@ def encode_word(s):
     for i in s1:
         l.append(alphabet[i])
 
-    print(' '.join(l))
+    return ' '.join(l)
 
-encode_word('He432llo')
 
 
 
